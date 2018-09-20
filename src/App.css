@@ -1,0 +1,114 @@
+.App {
+    text-align: center;
+}
+
+.App-logo {
+    animation: App-logo-spin infinite 20s linear;
+    height: 80px;
+}
+
+.App-header {
+    background-color: #222;
+    height: 180px;
+    color: white;
+}
+
+.App-title {
+    font-size: 1.5em;
+}
+
+.App-sub-title {
+    font-size: 1em;
+    margin-top: -15px;
+}
+
+.App-intro {
+    font-size: large;
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.container {
+    max-width: 100%;
+    padding: 1%;
+    margin: auto;
+}
+
+#empTable {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#empTable td,
+#empTable th {
+    border: 1px solid #dddddd;
+    padding: 8px;
+}
+
+#empTable tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#empTable tr:hover {
+    background-color: #bbbbbb;
+}
+
+#empTable th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: grey;
+    color: white;
+}
+
+.deleteIcon {
+    width: 20px;
+    padding: 0 15px;
+    cursor: pointer;
+}
+
+.empForm {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+.empForm label {
+    font-weight: bold;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 12px 5px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type="button"] {
+    width: 100%;
+    background-color: #4f4f4f;
+    font-weight: bold;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="button"]:hover {
+    background-color: #5c5c5c;
+    cursor: pointer;
+    color: white;
+}
